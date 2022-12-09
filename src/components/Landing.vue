@@ -7,11 +7,6 @@
                       <span class="block text-5xl font-bold mb-1 text-orange-600">{{main['Name']}}</span>
                       <div class="text-6xl text-primary font-bold mb-3">{{main['Designation']}}</div>
                       <p class="mt-0 mb-4 text-700 line-height-3">{{main['Quote']}}</p>
-                      
-                    
-                          <!-- <div>
-                            <label for="email" class="block text-53xl text-900 font-bold mb-2"><i class="pi pi-map text-blue-500 text-xl"></i> {{main['Address']}}</label>
-                        </div> -->
                         <Divider >   
                         </Divider>
                         
@@ -29,18 +24,16 @@
                             <span class="px-3">Linkedin</span>
                         </Button>
                         <Divider></Divider>
-                        <label for="email" class="block text-53xl text-900 font-bold mb-2"><i class="pi pi-map text-blue-500 text-xl"></i> {{main['Address']}}</label>
-                        
-                      <!-- <Button class="twitter p-0" aria-label="Twitter">
-                          <i class="pi pi-twitter px-2"></i>
-                          <span class="px-3">Twitter</span>
-                      </Button> -->
-                        <Divider >
-                        </Divider>       
+                        <div class="template">
+                        <label for="email" class="block col text-53xl text-900 font-bold mr-2 p-0"><i class="pi pi-map text-blue-500 text-xl"></i> {{main['Address']}}</label>
+                        <label for="email" class="block col text-53xl text-900 font-bold "><i class="pi pi-phone text-blue-500 text-xl"></i> {{main['Contact']}}</label>
+                      </div>
+                        <Divider></Divider>
+                            
                           <!-- <label for="email" class="block text-53xl text-900 font-bold mb-2"><i class="pi pi-phone text-blue-500 text-xl"></i> {{main['Contact']}}</label> -->
                         </div>
-                      <!-- <Button label="Learn More" type="button" class="mr-3 p-button-raised"></Button>
-                      <Button label="Live Demo" type="button" class="p-button-outlined"></Button> -->
+                       <Button label="Learn More" type="button" class="mr-3 p-button-raised"></Button>
+                      <!-- <Button label="Live Demo" type="button" class="p-button-outlined"></Button> --> 
                   </section>
               </div>
               <div class="col-12 md:col-6 overflow-hidden opacity-100" v-show="w>800">
