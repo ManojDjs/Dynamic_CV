@@ -46,47 +46,49 @@ import Image from 'primevue/image';
 import Tag from 'primevue/tag';
 import Chip from 'primevue/chip';
 import ScrollTop from 'primevue/scrolltop';
+// import SkeletonCards from 'vue-ultimate-skeleton-cards'
+
 const app = createApp(App);
 
-app.use(PrimeVue, {ripple: true});
-app.component("Image",Image)
-app.component("Checkbox",Checkbox)
-app.component("Textarea",Textarea)
-app.component("Splitter",Splitter)
-app.component("SplitterPanel",SplitterPanel)
-app.component("Dialog",Dialog)
-app.component("Badge",Badge)
-app.component("Avatar",Avatar)
-app.component("AvatarGroup",AvatarGroup)
-app.component("Divider",Divider)
-app.component('InputNumber',InputNumber)
-app.component('SelectButton',SelectButton)
-app.component('Slider',Slider)
-app.component('Timeline',Timeline)
-app.component('ScrollPanel',ScrollPanel)
+app.use(PrimeVue, { ripple: true });
+app.component("Image", Image)
+app.component("Checkbox", Checkbox)
+app.component("Textarea", Textarea)
+app.component("Splitter", Splitter)
+app.component("SplitterPanel", SplitterPanel)
+app.component("Dialog", Dialog)
+app.component("Badge", Badge)
+app.component("Avatar", Avatar)
+app.component("AvatarGroup", AvatarGroup)
+app.component("Divider", Divider)
+app.component('InputNumber', InputNumber)
+app.component('SelectButton', SelectButton)
+app.component('Slider', Slider)
+app.component('Timeline', Timeline)
+app.component('ScrollPanel', ScrollPanel)
 // app.component('Sidebar',Sidebar)
-app.component('Panel',Panel)
-app.component('Chart',Chart)
-app.component('RadioButton',RadioButton)
-app.component('Toolbar',Toolbar)
-app.component('Dropdown',Dropdown)
-app.component('TabView',TabView)
-app.component('TabPanel',TabPanel)
-app.component('Toast',Toast)
-app.component('Fieldset',Fieldset)
-app.component('Password',Password)
-app.component('Card',Card)
-app.component('InputText',InputText)
-app.component('BlockUI',BlockUI)
-app.component('TabMenu',TabMenu)
+app.component('Panel', Panel)
+app.component('Chart', Chart)
+app.component('RadioButton', RadioButton)
+app.component('Toolbar', Toolbar)
+app.component('Dropdown', Dropdown)
+app.component('TabView', TabView)
+app.component('TabPanel', TabPanel)
+app.component('Toast', Toast)
+app.component('Fieldset', Fieldset)
+app.component('Password', Password)
+app.component('Card', Card)
+app.component('InputText', InputText)
+app.component('BlockUI', BlockUI)
+app.component('TabMenu', TabMenu)
 // app.component('Sidebar',Sidebar)
-app.component('Button',Button)
-app.component('Menubar',Menubar)
+app.component('Button', Button)
+app.component('Menubar', Menubar)
 app.directive('ripple', Ripple);
 app.directive('tooltip', Tooltip);
 app.directive('Tag', Tag);
 app.directive('Chip', Chip);
-app.directive('ScrollTop',ScrollTop)
+app.directive('ScrollTop', ScrollTop)
 app.use(PrimeVue).use(router).use(store).mount('#app')
 
 

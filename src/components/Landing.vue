@@ -57,24 +57,10 @@
                 ><i class="pi pi-map text-blue-500 text-xl"></i>
                 {{ main["Address"] }}</label
               >
-
-              <!-- <label
-                for="phone"
-                class="block col text-53xl text-900 font-bold mr-2 p-0"
-                ><i class="pi pi-phone text-blue-500 text-xl"></i>
-                {{ main["Contact"] }}</label
-              > -->
             </div>
             <Divider></Divider>
 
-            <!-- <label for="email" class="block text-53xl text-900 font-bold mb-2"><i class="pi pi-phone text-blue-500 text-xl"></i> {{main['Contact']}}</label> -->
           </div>
-          <Button
-            label="Learn More"
-            type="button"
-            class="mr-3 p-button-raised"
-          ></Button>
-          <!-- <Button label="Live Demo" type="button" class="p-button-outlined"></Button> -->
         </section>
       </div>
       <div class="col-12 md:col-6 overflow-hidden opacity-100" v-show="w > 800">
