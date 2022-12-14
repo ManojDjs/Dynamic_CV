@@ -1,27 +1,26 @@
 <template>
   <!-- <div :style="myStyle">
      -->
-     <div class="app" id="app">
-  <!-- <nav>
+  <div class="app" id="app">
+    <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <Badge></Badge>
   </nav> -->
-  <router-view/>
-  
-</div>
+    <router-view />
+  </div>
 </template>
 
 <script>
 export default {
-  data(){
-       return{
-         myStyle:{
-            backgroundColor:"#00000" 
-            }
-           }
-         }
-}
+  data() {
+    return {
+      myStyle: {
+        backgroundColor: "#00000",
+      },
+    };
+  },
+};
 </script>
 <style>
 #app {
@@ -29,7 +28,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #02070c;
+  color: #dfe5eb;
 }
 
 nav {

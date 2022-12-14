@@ -1,6 +1,8 @@
 <template>
   <div class="Footer">
-    <div class="surface-section px-4 py-8 md:px-6 lg:px-8 bg-teal-200">
+    <div
+      class="surface-section px-4 py-8 md:px-6 lg:px-8 bg-teal-200 border-round"
+    >
       <div class="text-700 text-center">
         <div class="text-blue-600 font-bold mb-3">
           <i class="pi pi-github"></i>&nbsp;POWERED BY @ManojDjs
@@ -190,9 +192,16 @@ export default {
         behavior: "smooth",
       });
     },
+    get_pypi() {
+      axios.get("https://pypi.org/simple/").then((resp) => {
+        console.log(resp.data);
+      });
+    },
   },
+
   created() {
     this.get_git();
+    // this.get_pypi()
   },
   computed: {
     ...mapState(["leetcode", "social"]),
