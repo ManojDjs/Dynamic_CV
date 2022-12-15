@@ -25,6 +25,9 @@
     <div class="pb-2 border-round">
       <Footer></Footer>
     </div>
+    <div class="pb-2 border-round">
+      <Services></Services>
+    </div>
   </div>
 </template>
 <script>
@@ -37,6 +40,7 @@ import Skills from "@/components/Skills.vue";
 import Experience from "@/components/Experience.vue";
 import Footer from "@/components/Footer.vue";
 import Button from "primevue/button";
+import Services from "@/components/Services.vue";
 export default {
   name: "HomeView",
   components: {
@@ -49,6 +53,7 @@ export default {
     Experience,
     Footer,
     Button,
+    Services,
   },
   methods: {
     scroll(id) {

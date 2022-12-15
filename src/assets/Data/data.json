@@ -1,25 +1,23 @@
 [
     {
-        "Main":{
-            "Name":"Mr. Jaya Deep Satya Manoj Doddi",
-            "Designation":"Associate Data Engineer",
-            "Quote":"Code is an Art, All you need is a Perspective.",
+        "Main": {
+            "Name": "Mr. Jaya Deep Satya Manoj Doddi",
+            "Designation": "Associate Data Engineer",
+            "Quote": "Code is an Art, All you need is a Perspective.",
             "Address": "Derby, U.K.",
             "Contact": "447404089652"
         }
     },
-    
-    
     {
-        "LeetCode":{
-            "Username":"djsmanoj0000",
-            "Api":"https://leetcode-stats-api.herokuapp.com/"
+        "LeetCode": {
+            "Username": "djsmanoj0000",
+            "Api": "https://leetcode-stats-api.herokuapp.com/"
         }
     },
     {
-        "About me":{
-            "Introduction":"I am a Data Engineer, I am responsible for increasing the availability of data  in the enterprise by developing and maintaining a large variety of software and hardware components for storing, processing, analyzing, and using data. It also includes defining the architecture and standards for the storage, processing, storage systems, software components, and data access methods.",
-            "Roles":[
+        "About me": {
+            "Introduction": "I am a Data Engineer, I am responsible for increasing the availability of data  in the enterprise by developing and maintaining a large variety of software and hardware components for storing, processing, analyzing, and using data. It also includes defining the architecture and standards for the storage, processing, storage systems, software components, and data access methods.",
+            "Roles": [
                 "As a Big Data Engineer I am Working with Py-Spark, Pandas, SQL ,Azure Dev-ops and Azure Data bricks.",
                 "Modelling for Predictive Maintenance of our Products and Code Refactoring.",
                 "Responsible for Data management and Data pipeline management",
@@ -29,27 +27,46 @@
                 "Deal with Manual and Automation Test Scripting with Azure Dev-ops Pipeline and building Artifacts.",
                 "Data warehousing and Data pipe line integration on Azure Dev-ops.",
                 "Working with Azure Data Scientist Virtual Machines."
-                
             ]
         }
     },
     {
-        "Experience":
-            [{
-                "Title":"Big Data Engineer",
-                "Company":"Expleo Group UK",
-                "Years" : "March 2022 - Present",
-                "color" : "",
-                "toggable":true,
-                "collapsed":false,
+        "Experience": [
+            {
+                "Title": "Big Data Engineer",
+                "Company": "Expleo Group UK",
+                "Years": "March 2022 - Present",
+                "color": "",
+                "toggable": true,
+                "collapsed": false,
                 "icon": "pi pi-spin pi-spinner",
-                "Skills":[
-                    "PySpark","Agile Methodologies","Azure Data Factory","Data Science","Azure DevOps","Azure Databricks",
-                    "Azure synapse","Azure Synapse","Azure Data Mart","Azure Data Warehouse","Azure Blob","Workflow Management","Serverless","Tabelaue","Microsoft Power BI",
-                    "Data Warehousing","Data Management","Apache Spark","Data Modeling","Pandas","Data Mining",
-                    "Data Analytics","Big Data","Azure CI/CD"
+                "Skills": [
+                    "PySpark",
+                    "Agile Methodologies",
+                    "Azure Data Factory",
+                    "Data Science",
+                    "Azure DevOps",
+                    "Azure Databricks",
+                    "Azure synapse",
+                    "Azure Synapse",
+                    "Azure Data Mart",
+                    "Azure Data Warehouse",
+                    "Azure Blob",
+                    "Workflow Management",
+                    "Serverless",
+                    "Tabelaue",
+                    "Microsoft Power BI",
+                    "Data Warehousing",
+                    "Data Management",
+                    "Apache Spark",
+                    "Data Modeling",
+                    "Pandas",
+                    "Data Mining",
+                    "Data Analytics",
+                    "Big Data",
+                    "Azure CI/CD"
                 ],
-                "Roles":[
+                "Roles": [
                     "As a Big Data Engineer I am Working with Py-Spark, Pandas, SQL ,Azure Dev-ops and Azure Data bricks.",
                     "Responsible for Data management and Data pipeline management",
                     "Creating and Managing Databricks Orchestrator Workflows and Dynamic Cluster Managements for cost Optimizations.",
@@ -64,20 +81,38 @@
                 ]
             },
             {
-                "Title":"Python Backend Developer",
-                "Company":"RIG TECHNOLOGIES PRIVATE LIMITED, Chennai, India",
-                "Years" : "Jan 2021 - Dec 2021",
-                "color" : "",
+                "Title": "Python Backend Developer",
+                "Company": "RIG TECHNOLOGIES PRIVATE LIMITED, Chennai, India",
+                "Years": "Jan 2021 - Dec 2021",
+                "color": "",
                 "icon": "pi pi-check",
-                "toggable":true,
-                "collapsed":"",
-                "Skills":[
-                    "Python","Agile Methodologies","AWS EKS","Docker","Kubernetes","Django",
-                    "Flask","Django REST","Swaggers","Contanarization","Microsoft Power BI",
-                    "Pytests","AWS EMR","AWS EC2","Data Modeling","Pandas","Data Mining",
-                    "Data Analytics","Big Data","CI/CD","JFrog","Circle CI"
+                "toggable": true,
+                "collapsed": "",
+                "Skills": [
+                    "Python",
+                    "Agile Methodologies",
+                    "AWS EKS",
+                    "Docker",
+                    "Kubernetes",
+                    "Django",
+                    "Flask",
+                    "Django REST",
+                    "Swaggers",
+                    "Contanarization",
+                    "Microsoft Power BI",
+                    "Pytests",
+                    "AWS EMR",
+                    "AWS EC2",
+                    "Data Modeling",
+                    "Pandas",
+                    "Data Mining",
+                    "Data Analytics",
+                    "Big Data",
+                    "CI/CD",
+                    "JFrog",
+                    "Circle CI"
                 ],
-                "Roles":[
+                "Roles": [
                     "Remote job working from UK.",
                     "Working on Django Rest API and Falsk API's",
                     "Agile Development with 2 weeks sprint",
@@ -88,20 +123,38 @@
                 ]
             },
             {
-                "Title":"Python Backend Developer",
-                "Company":"RIG TECHNOLOGIES PRIVATE LIMITED, Chennai, India",
-                "Years" : "Feb 2018 - Feb 2020",
-                "color" : "",
+                "Title": "Python Backend Developer",
+                "Company": "RIG TECHNOLOGIES PRIVATE LIMITED, Chennai, India",
+                "Years": "Feb 2018 - Feb 2020",
+                "color": "",
                 "icon": "pi pi-check",
-                "toggable":true,
-                "collapsed":"",
-                "Skills":[
-                    "Python","Agile Methodologies","AWS EKS","Docker","Kubernetes","Django",
-                    "Flask","Django REST","Swaggers","Contanarization","Microsoft Power BI",
-                    "Pytests","AWS EMR","AWS EC2","Data Modeling","Pandas","Data Mining",
-                    "Data Analytics","Big Data","CI/CD","JFrog","Circle CI"
+                "toggable": true,
+                "collapsed": "",
+                "Skills": [
+                    "Python",
+                    "Agile Methodologies",
+                    "AWS EKS",
+                    "Docker",
+                    "Kubernetes",
+                    "Django",
+                    "Flask",
+                    "Django REST",
+                    "Swaggers",
+                    "Contanarization",
+                    "Microsoft Power BI",
+                    "Pytests",
+                    "AWS EMR",
+                    "AWS EC2",
+                    "Data Modeling",
+                    "Pandas",
+                    "Data Mining",
+                    "Data Analytics",
+                    "Big Data",
+                    "CI/CD",
+                    "JFrog",
+                    "Circle CI"
                 ],
-                "Roles":[
+                "Roles": [
                     "Working on Django Rest API and as a Web Scrapper with Selenium and Beautiful soup.",
                     "Manual deployments with AWS ec2",
                     "Test driven development",
@@ -110,19 +163,51 @@
                     "Maintenance for AWS EKS service with Kubernetes"
                 ]
             }
-
         ]
-        
     },
     {
-        "Social":{
-              "Whtsapp":"447404089651",
-              "Email":"djsmanoj0000@gmail.com",
-              "Body":"Hey Manoj, I have seen your profile can we get in touch to know you better",
-              "Subject":"Intial Phase of Contact",
-              "Linkedin":"https://www.linkedin.com/in/jaya-deep-satya-manoj-doddi-8b5064118/",
-              "Git":"https://api.github.com/users/",
-              "Git_user":"ManojDjs"
+        "Social": {
+            "Whtsapp": "447404089651",
+            "Email": "djsmanoj0000@gmail.com",
+            "Body": "Hey Manoj, I have seen your profile can we get in touch to know you better",
+            "Subject": "Intial Phase of Contact",
+            "Linkedin": "https://www.linkedin.com/in/jaya-deep-satya-manoj-doddi-8b5064118/",
+            "Git": "https://api.github.com/users/",
+            "Git_user": "ManojDjs"
         }
-      }
+    },
+    {
+        "Services": [
+            {
+                "Name": "Data Engineering",
+                "Description": "I am specialized in analyzing data. Results, trends and recommendations are clearly presented in reports or tools.",
+                "Icon": "pi pi-wrench pi-spin text-xl text-yellow-600"
+            },
+            {
+                "Name": "Data analytics",
+                "Description": "Get more value from your data with prediction models and machine learning techniques, for example by predicting behavior or targeting the right customer.",
+                "Icon": "pi pi-chart-bar text-xl text-yellow-600"
+            },
+            {
+                "Name": "Front-end web developer",
+                "Description": "As a web developer, I help to design and create the perfect website for starters and freelancers. The website is optimized for desktop and smartphone.",
+                "Icon": "pi pi-tablet text-xl text-yellow-600"
+            },
+            {
+                "Name": "API Development",
+                "Description": "As a Full stack developer i always being intrested in wrting API's. Robust and reliable API creation is one of my key strenths. I Use Django DRF and FLASK.",
+                "Icon": "pi pi-sitemap text-xl text-yellow-600"
+            },
+            {
+                "Name": "Dashboards",
+                "Description": "Dashboards show the most recent results in an interactive way. By clicking and drilling, you will examine trends and patterns yourself.",
+                "Icon": "pi pi-sliders-h text-xl text-yellow-600"
+            },
+            {
+                "Name": "(Interactive) infographics",
+                "Description": "Present your data in an inspiring way by using an infographic rather than a piece of text. I create interactive infographics which can be used internally or publicly.",
+                "Icon": "pi pi-palette text-xl text-yellow-600"
+            }
+        ]
+    }
 ]

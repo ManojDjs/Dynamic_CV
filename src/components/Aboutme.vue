@@ -33,7 +33,7 @@
         >
           <div v-bind:key="item" v-for="item in projects">
             <div
-              class="shadow-2 border-round-xl"
+              class="shadow-2 border-round-xl hover:shadow-5"
               style="
                 background: linear-gradient(
                   15deg,
@@ -123,7 +123,7 @@ export default {
       this.username == "djsmanoj0000";
       axios.get("https://api.github.com/users/ManojDjs/repos").then((resp) => {
         console.log(resp.data);
-        this.projects = resp.data.sort(this.custom_sort).slice(-3);
+        this.projects = resp.data.sort(this.custom_sort).slice(-3).reverse();
         console.log(this.projects);
       });
     },

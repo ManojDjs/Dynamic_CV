@@ -1,6 +1,14 @@
 <template>
   <div>
-    <div class="grid grid-nogutter surface-section text-800 shadow-2">
+    <div
+      class="
+        grid grid-nogutter
+        surface-section
+        text-800
+        shadow-2
+        border-round-xl
+      "
+    >
       <div
         class="
           col-12
@@ -59,11 +67,13 @@
               >
             </div>
             <Divider></Divider>
-
           </div>
         </section>
       </div>
-      <div class="col-12 md:col-6 overflow-hidden opacity-100" v-show="w > 800">
+      <div
+        class="col-12 md:col-6 overflow-hidden opacity-100 border-round"
+        v-show="w > 800"
+      >
         <img
           src="@/assets/land.gif"
           alt="Image"
