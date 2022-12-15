@@ -33,7 +33,7 @@
         >
           <div v-bind:key="item" v-for="item in projects">
             <div
-              class="shadow-2 border-round-xl hover:shadow-5"
+              class="shadow-2 border-round-xl hover:shadow-8"
               style="
                 background: linear-gradient(
                   15deg,
@@ -83,11 +83,11 @@
                     text-overflow-ellipsis
                   "
                 >
-                  {{ item.description }}
+                  Description: {{ item.description }}
                 </div>
-                <span class="p-tag p-component mr-2"
-                  ><!----><span class="p-tag-value p-tag-success mr-2">
-                    {{ item.language }}</span
+                <span class="text-indigo-900 font-bold p-component mr-2"
+                  ><!----><span class="mr-2">
+                    Written in: {{ item.language }}</span
                   ></span
                 >
                 <div class="template mt-2">

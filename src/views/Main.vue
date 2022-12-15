@@ -1,5 +1,5 @@
 <template>
-  <div class="Main bg-bluegray-50">
+  <div class="Main">
     <div class="pb-2 border-round" id="landing">
       <Landing></Landing>
     </div>
@@ -12,7 +12,7 @@
     <div class="pb-2 border-round">
       <Experience></Experience>
     </div>
-    <div>
+    <div class="pb-2 border-round">
       <Skills></Skills>
     </div>
 
@@ -23,10 +23,14 @@
       <Aboutme></Aboutme>
     </div>
     <div class="pb-2 border-round">
-      <Footer></Footer>
+      <Resume></Resume>
     </div>
+
     <div class="pb-2 border-round">
       <Services></Services>
+    </div>
+    <div class="pb-2 border-round">
+      <Footer></Footer>
     </div>
   </div>
 </template>
@@ -41,6 +45,7 @@ import Experience from "@/components/Experience.vue";
 import Footer from "@/components/Footer.vue";
 import Button from "primevue/button";
 import Services from "@/components/Services.vue";
+import Resume from "@/components/Resume.vue";
 export default {
   name: "HomeView",
   components: {
@@ -54,6 +59,7 @@ export default {
     Footer,
     Button,
     Services,
+    Resume,
   },
   methods: {
     scroll(id) {

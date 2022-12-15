@@ -1,6 +1,28 @@
 <template>
-  <div class="px-4 py-8 md:px-6 lg:px-8">
-    <div class="grid">
+  <div class="px-2 py-4 md:px-2 lg:px-2">
+    <div
+      class="
+        grid
+        p-2
+        lg:p-2
+        bg-orange-50
+        border-round
+        mb-2
+        text-center
+        lg:text-left
+      "
+    >
+      <div class="px-4 py-4 md:px-6 lg:px-8">
+        <div class="font-bold text-5xl text-indigo-900 mb-3">SERVICES</div>
+        <div class="text-indigo-700 line-height-3 text-xl mb-6">
+          As a freelance Data Engineer and Data Scientist, I translate data into
+          valuable and comprehensible insights. My goal is to improve results,
+          make the right decisions and save costs. I am experienced in machine
+          learning, supervised and unsupervised algorithms and use data
+          visualization techniques to present the results. I use SQL, R, Python,
+          QlikView and Tableau for my data projects.
+        </div>
+      </div>
       <div
         class="col-12 md:col-6 lg:col-4 p-3"
         v-bind:key="item"

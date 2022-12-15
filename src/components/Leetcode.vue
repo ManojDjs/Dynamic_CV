@@ -28,7 +28,7 @@
               "
               style="width: 2.5rem; height: 2.5rem"
             >
-              <i class="pi pi-globe text-blue-500 text-xl"></i>
+              <i class="pi pi-globe pi-spin text-blue-500 text-xl"></i>
             </div>
           </div>
           <span class="text-green-500 font-medium">{{ totalQuestions }} </span>
@@ -141,20 +141,18 @@ export default {
   },
   methods: {
     get_leet_info() {
-        
-    //   this.username == "djsmanoj0000";
-    //   axios
-    //     .get(this.leetcode["Api"] + this.leetcode["Username"])
-    //     .then((resp) => {
-    //       console.log(resp.data);
-
-    //       this.totalQuestions = resp.data["totalQuestions"];
-    //       this.totalSolved = resp.data["totalSolved"];
-    //       this.ranking = resp.data["ranking"];
-    //       this.acceptanceRate = resp.data["acceptanceRate"];
-    //       this.reputation = resp.data["reputation"];
-    //     });
-    }
+      //   this.username == "djsmanoj0000";
+      //   axios
+      //     .get(this.leetcode["Api"] + this.leetcode["Username"])
+      //     .then((resp) => {
+      //       console.log(resp.data);
+      //       this.totalQuestions = resp.data["totalQuestions"];
+      //       this.totalSolved = resp.data["totalSolved"];
+      //       this.ranking = resp.data["ranking"];
+      //       this.acceptanceRate = resp.data["acceptanceRate"];
+      //       this.reputation = resp.data["reputation"];
+      //     });
+    },
   },
   created() {
     // this.get_leet_info()

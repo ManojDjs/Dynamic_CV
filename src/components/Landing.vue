@@ -4,7 +4,7 @@
       class="
         grid grid-nogutter
         surface-section
-        text-800
+        text-indigo-800
         shadow-2
         border-round-xl
       "
