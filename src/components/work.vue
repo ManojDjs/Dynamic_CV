@@ -5,7 +5,7 @@
       <div class="col-12 md:col-6 lg:col-6 my-auto">
         <div class="text-700 text-center box border-round py-4
                 px-4
-                md:py-3
+                md:py-0
                 md:px-0">
           <section>
             <div
@@ -20,7 +20,7 @@
             >
               Who am i?
             </div>
-            <div class="text-sm md:text-lg text-justify text-indigo-900 font-bold">
+            <div class="text-sm md:text-lg text-justify text-indigo-900 font-bold line-height-3">
               {{ about["Introduction"] }}
             </div>
           </section>

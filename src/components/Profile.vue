@@ -25,7 +25,7 @@
             <span class="block text-5xl font-bold mb-1 text-indigo-800">{{
               main["Name"]
             }}</span>
-            <div class="text-3xl text-primary font-bold mb-3">
+            <div class="text-3xl text-yellow-400 font-bold mb-3">
               {{ main["Designation"] }}
             </div>
             <p class="mt-0 mb-2 text-bluegray-900 text-lg line-height-3">{{ main["Quote"] }}</p>
@@ -64,6 +64,7 @@
         </div>
       </div>
     </div>
+    
   </template>
     
     <script>
