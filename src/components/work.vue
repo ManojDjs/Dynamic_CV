@@ -1,23 +1,26 @@
 <template>
-  <div class="Face surface-0 box border-round shadow-2">
+  <div class="Face bg-blue-0 box border-round">
     <!-- <div class="text-5xl font-bold text-100 text-indigo-400  text-center m-5 pt-3 uppercase">About Me</div> -->
-    <div class="grid my-2 mx-0 md:mx-2 md:my-0 max-h-auto p-4 border-round">
+    <div class="grid my-1 mx-0 md:mx-1 md:my-0 max-h-auto md:p-4 border-round">
       <div class="col-12 md:col-6 lg:col-6 my-auto">
-        <div class="text-700 text-center box border-round">
+        <div class="text-700 text-center box border-round py-4
+                px-4
+                md:py-3
+                md:px-0">
           <section>
             <div
               class="
                 text-xl
-                md:text-4xl
-                text-4xl text-justify
+                md:text-2xl
+                 text-justify
                 pb-2
-                text-indigo-400
+                text-indigo-800
                 font-bold
               "
             >
               Who am i?
             </div>
-            <div class="md:text-xl text-justify text-900 font-bold">
+            <div class="text-sm md:text-lg text-justify text-indigo-900 font-bold">
               {{ about["Introduction"] }}
             </div>
           </section>
@@ -30,14 +33,14 @@
             align-content-evenly
             w-auto
             h-auto
-            py-6
+            py-0
             px-0
             md:px-6 md:py-0
           "
         >
           <img
-            src="https://i.pinimg.com/originals/c7/c6/f7/c7c6f7e8b3506ea46261ab7b55fc9faf.gif"
-            class="shadow-8"
+            src="https://saritainfotech.com/wp-content/uploads/2020/10/document-mgt.gif"
+            class="shadow-0"
             alt="profile"
             style="width: 100%; display: block; border-radius: 10%"
             id="image"
@@ -45,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="grid my-2 mx-0 md:mx-2 md:my-0 max-h-auto p-4 border-round">
+    <div class="grid my-1 mx-0 md:mx-1 md:my-0 max-h-auto p-4 border-round">
       <div class="col-12 md:col-6 lg:col-6 md:inline-flex max-h-auto">
         <div
           class="
@@ -53,16 +56,16 @@
             align-content-evenly
             w-auto
             h-auto
-            py-2
+            py-0
             px-0
             md:px-2 md:py-0
           "
         >
           <img
-            src="@/assets/Dv2.gif"
-            class="shadow-8"
+            src="https://tagcoders.com/img/data-analysis.gif"
+            class="shadow-0"
             alt="profile"
-            style="width: 100%; display: block; border-radius: 10%"
+            style="width: 100%; display: block; border-radius: 10%;height:90%"
             id="image"
           />
         </div>
@@ -73,10 +76,10 @@
             <div
               class="
                 text-xl
-                md:text-4xl
-                text-4xl text-justify
+                md:text-2xl
+                text-justify
                 pb-2
-                text-indigo-400
+                text-indigo-800
                 font-bold
               "
             >
@@ -84,7 +87,7 @@
             </div>
 
             <ul class="list-disc" v-bind:key="item" v-for="item in about.Roles">
-              <li class="text-left md:text-xl text-900 font-bold">
+              <li class="text-left text-sm md:text-lg text-indigo-900 font-bold">
                 {{ item }}
               </li>
             </ul>

@@ -1,7 +1,7 @@
 [
     {
         "Main": {
-            "Name": "Mr. Jaya Deep Satya Manoj Doddi",
+            "Name": "Manoj DJS",
             "Designation": "Associate Data Engineer",
             "Quote": "Code is an Art, All you need is a Perspective.",
             "Address": "Derby, U.K.",
@@ -9,7 +9,8 @@
             "Position": "Data Engineer,Data Scientist and Full Stack Developer",
             "Introduction": "Senior data engineer experienced in working across the different stages of the data pipeline, including acquisition, integration, ODS and real-time data marts. Adept in working quickly and efficiently in close collaboration with analytic, engineering and other stakeholders.",
             "Salary": "Negotiable",
-            "Email": "djsmanoj0000@gmail.com"
+            "Email": "djsmanoj0000@gmail.com",
+            "Source":"https://i.pinimg.com/originals/91/90/8a/91908ad2f9aef293ed840739a291e9db.gif"
         }
     },
     {
@@ -230,7 +231,7 @@
             },
             {
                 "Name":"Azure",
-                "Source":"https://symbols.getvecta.com/stencil_27/121_visual-studio-team-services.117b5070bc.svg"
+                "Source":"https://symbols.getvecta.com/stencil_27/95_subscription.9d4b0ef3cc.svg"
             },
 
             {
@@ -244,6 +245,10 @@
             {
                 "Name":"Azure Synapse",
                 "Source":"https://1.bp.blogspot.com/-oBQve3G7s_Q/X3eLBdZTyfI/AAAAAAAAHWI/_p96flukCWcPEFoBz0CSijyLQDp8Nq0TACLcBGAsYHQ/s435/PauseSynapse00.png"
+            },
+            {
+                "Name":"Azure DSVM",
+                "Source":"https://symbols.getvecta.com/stencil_27/102_vm-symbol.c0581746e3.svg"
             },
             {
                 "Name":"SQL",

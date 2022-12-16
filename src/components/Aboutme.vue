@@ -6,7 +6,7 @@
         flex-wrap
         p-2
         lg:p-4
-        bg-cyan-50
+        bg-indigo-50
         border-round
         mb-4
         text-center
@@ -14,7 +14,7 @@
       "
     >
       <div class="px-4 py-8 md:px-6 lg:px-8">
-        <div class="font-bold text-5xl text-indigo-900 mb-3">
+        <div class="font-bold text-5xl text-indigo-800 mb-3">
           Recent Projects
         </div>
         <div class="text-indigo-700 line-height-3 text-xl mb-6">
@@ -46,7 +46,7 @@
               <div class="p-4 border-round card h-max-5 h-min-5">
                 <div class="flex mb-3">
                   <div
-                    class="p-avatar p-component p-avatar-image p-avatar-circle"
+                    class="p-avatar p-component p-avatar-image p-avatar-circle border-primary-900 surface-overlay border-1"
                   >
                     <img
                       src="https://avatars.githubusercontent.com/u/22208973?v=4"

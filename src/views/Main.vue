@@ -1,19 +1,23 @@
 <template>
-  <div class="Main sm:m-0 lg:ml-1 lg:mr-1">
+  <div class="Main sm:m-0 lg:ml-1 lg:mr-1 ">
     <div
       class="mt-6 max-w-screen flex align-items-center justify-content-center"
     >
       <Nav></Nav>
     </div>
-    <div class="pb-2 sm:mt-6 lg:mt-7" id="landing">
+    <div class="pb-2 mt-7 lg:mt-7 border-round">
+      <Profile></Profile>
+    </div>
+    <div class="pb-2  border-round">
+      <Work></Work>
+    </div>
+    <div class="pb-2 " id="landing">
       <Landing></Landing>
     </div>
     <div class="pb-2 border-round">
       <Leetcode></Leetcode>
     </div>
-    <div class="pb-2 border-round">
-      <Work></Work>
-    </div>
+    
     <div class="pb-2 border-round">
       <Experience></Experience>
     </div>
@@ -52,6 +56,7 @@ import Button from "primevue/button";
 import Services from "@/components/Services.vue";
 import Resume from "@/components/Resume.vue";
 import Nav from "@/components/Nav.vue";
+import Profile from "@/components/Profile.vue";
 export default {
   name: "HomeView",
   components: {
@@ -67,6 +72,7 @@ export default {
     Services,
     Resume,
     Nav,
+    Profile
   },
   methods: {
     scroll(id) {

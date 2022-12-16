@@ -29,7 +29,7 @@
           <div class="text-6xl text-primary font-bold mb-3">
             {{ main["Designation"] }}
           </div>
-          <p class="mt-0 mb-4 text-700 line-height-3">{{ main["Quote"] }}</p>
+          <p class="mt-0 mb-4 text-900 line-height-3">{{ main["Quote"] }}</p>
           <Divider> </Divider>
 
           <div class="template">

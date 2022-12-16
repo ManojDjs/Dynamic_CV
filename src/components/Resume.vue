@@ -1,5 +1,5 @@
 <template>
-  <div class="surface-card p-4 shadow-2 border-round">
+  <div class="bg-indigo-800 p-4 shadow-2 border-round">
     <div class="font-medium text-3xl text-900 mb-3">My Formal Profile</div>
     <div class="text-500 mb-5">I am looking for new career</div>
     <div class="grid grid-nogutter border-top-1 surface-border pt-2">
@@ -38,7 +38,7 @@
             md:flex-row
           "
         >
-          <div class="flex align-items-center">
+          <div class="flex align-items-center text-900">
             <span class="block pi pi-file mr-2"></span
             ><span class="text-900">resume_en.pdf</span>
           </div>
@@ -65,7 +65,7 @@
             md:flex-row
           "
         >
-          <div class="flex align-items-center">
+          <div class="flex align-items-center text-900">
             <span class="block pi pi-file mr-2"></span
             ><span class="text-900">cover_letter_en.pdf</span>
           </div>
