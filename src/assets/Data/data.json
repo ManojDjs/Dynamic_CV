@@ -213,5 +213,95 @@
                 "Icon": "pi pi-palette text-xl text-yellow-600"
             }
         ]
+    },
+    {
+        "Skills":[
+            {
+                "Name":"Python",
+                "Source":"https://symbols.getvecta.com/stencil_25/67_python.34cfd522d6.svg"
+            },
+            {
+                "Name":"PySpark",
+                "Source":"https://docs.yugabyte.com/images/develop/ecosystem-integrations/apache-spark.png"
+            },
+            {
+                "Name":"Pandas",
+                "Source":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"
+            },
+            {
+                "Name":"Azure",
+                "Source":"https://symbols.getvecta.com/stencil_27/121_visual-studio-team-services.117b5070bc.svg"
+            },
+
+            {
+                "Name":"Data Bricks",
+                "Source":"https://learn.microsoft.com/answers/topics/25409/icon.html?t=168439"
+            },
+            {
+                "Name":"Azure Devops",
+                "Source":"https://avatars.slack-edge.com/2019-01-17/528389819366_e7a0672f0480b3e98d21_512.png"
+            },
+            {
+                "Name":"Azure Synapse",
+                "Source":"https://1.bp.blogspot.com/-oBQve3G7s_Q/X3eLBdZTyfI/AAAAAAAAHWI/_p96flukCWcPEFoBz0CSijyLQDp8Nq0TACLcBGAsYHQ/s435/PauseSynapse00.png"
+            },
+            {
+                "Name":"SQL",
+                "Source":"https://symbols.getvecta.com/stencil_27/79_sql-database-generic.494ff6320e.svg"
+            },
+            {
+                "Name":"VS Code",
+                "Source":"https://symbols.getvecta.com/stencil_28/90_visual-studio-team-services.c0e758f9a4.svg"
+            },
+            {
+                "Name":"Data Factory",
+                "Source":"https://symbols.getvecta.com/stencil_27/36_data-factory.e36cbf28ed.svg"
+            },
+            {
+                "Name":"ML Ops",
+                "Source":"https://symbols.getvecta.com/stencil_27/58_machine-learning.bda1a99567.svg"
+            },
+            {
+                "Name":"Data Warehouse",
+                "Source":"https://symbols.getvecta.com/stencil_28/62_sql-datawarehouse.2e05dc888d.svg"
+            },
+            {
+                "Name":"PyTest",
+                "Source":"https://symbols.getvecta.com/stencil_27/41_devtest-labs.5a97d23d39.svg"
+            },
+            {
+                "Name":"Analytics",
+                "Source":"https://symbols.getvecta.com/stencil_311/3_data-display-icon.c448464291.svg"
+            },
+            {
+                "Name":"J-Frog",
+                "Source":"https://symbols.getvecta.com/stencil_113/0_frog.d7d6777478.svg"
+            },
+            {
+                "Name":"Vue.js",
+                "Source":"https://symbols.getvecta.com/stencil_25/87_vuejs.a929f023a4.svg"
+            },
+            {
+                "Name":"Django",
+                "Source":"https://symbols.getvecta.com/stencil_25/20_django.7813323447.svg"
+            },
+            {
+                "Name":"API's",
+                "Source":"https://symbols.getvecta.com/stencil_28/6_application-gateway.ab007e631b.svg"
+            },
+            {
+                "Name":"Docker",
+                "Source":"https://symbols.getvecta.com/stencil_27/31_container-registry.9ac93f2e9f.svg"
+            },
+            {
+                "Name":"Github",
+                "Source":"https://symbols.getvecta.com/stencil_28/88_visual-studio-team-services-git-repository.c595f4166d.svg"
+
+            },
+            {
+                "Name":"Linux",
+                "Source":"https://cdn-icons-png.flaticon.com/512/25/25719.png"
+            }
+        ]
     }
 ]
