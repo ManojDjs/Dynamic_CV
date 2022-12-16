@@ -1,6 +1,11 @@
 <template>
-  <div class="Main">
-    <div class="pb-2 border-round" id="landing">
+  <div class="Main sm:m-0 lg:ml-1 lg:mr-1">
+    <div
+      class="mt-6 max-w-screen flex align-items-center justify-content-center"
+    >
+      <Nav></Nav>
+    </div>
+    <div class="pb-2 sm:mt-6 lg:mt-7" id="landing">
       <Landing></Landing>
     </div>
     <div class="pb-2 border-round">
@@ -29,9 +34,9 @@
     <div class="pb-2 border-round">
       <Services></Services>
     </div>
-    <div class="pb-2 border-round">
-      <Footer></Footer>
-    </div>
+    <!-- <div class="pb-2 border-round"> -->
+    <Footer></Footer>
+    <!-- </div> -->
   </div>
 </template>
 <script>
@@ -46,6 +51,7 @@ import Footer from "@/components/Footer.vue";
 import Button from "primevue/button";
 import Services from "@/components/Services.vue";
 import Resume from "@/components/Resume.vue";
+import Nav from "@/components/Nav.vue";
 export default {
   name: "HomeView",
   components: {
@@ -60,6 +66,7 @@ export default {
     Button,
     Services,
     Resume,
+    Nav,
   },
   methods: {
     scroll(id) {

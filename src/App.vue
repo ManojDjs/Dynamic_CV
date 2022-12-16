@@ -1,17 +1,11 @@
 <template>
-  <!-- <div :style="myStyle">
-     -->
-  <div class="app" id="app">
-    <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <Badge></Badge>
-  </nav> -->
+  <div class="app relative" id="app">
     <router-view />
   </div>
 </template>
 
 <script>
+import Nav from "@/components/Nav.vue";
 export default {
   data() {
     return {
@@ -19,6 +13,9 @@ export default {
         backgroundColor: "#00000",
       },
     };
+  },
+  components: {
+    Nav,
   },
 };
 </script>
@@ -28,19 +25,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #dfe5eb;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #a2e2ed;
+  color: #155494;
+  padding: 0%;
 }
 </style>

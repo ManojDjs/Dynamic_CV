@@ -1,33 +1,28 @@
 <template>
   <div class="surface-card p-4 shadow-2 border-round">
-    <div class="font-medium text-3xl text-900 mb-3">Applicant Profile</div>
-    <div class="text-500 mb-5">
-      Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
-    </div>
+    <div class="font-medium text-3xl text-900 mb-3">My Formal Profile</div>
+    <div class="text-500 mb-5">I am looking for new career</div>
     <div class="grid grid-nogutter border-top-1 surface-border pt-2">
       <div class="col-12 md:col-6 p-3">
         <div class="text-500 font-medium mb-2">Name</div>
-        <div class="text-900">Elliot Alderson</div>
+        <div class="text-900">{{ main.Name }}</div>
       </div>
       <div class="col-12 md:col-6 p-3">
         <div class="text-500 font-medium mb-2">Email</div>
-        <div class="text-900">elliot.alderson@email.com</div>
+        <div class="text-900">{{ main.Email }}</div>
       </div>
       <div class="col-12 md:col-6 p-3">
-        <div class="text-500 font-medium mb-2">Applied Position</div>
-        <div class="text-900">Front-End Developer</div>
+        <div class="text-500 font-medium mb-2">Position's Intrested In</div>
+        <div class="text-900">{{ main.Position }}</div>
       </div>
       <div class="col-12 md:col-6 p-3">
         <div class="text-500 font-medium mb-2">Salary Expectation</div>
-        <div class="text-900">$150,000</div>
+        <div class="text-900">{{ main.Salary }}</div>
       </div>
       <div class="col-12 p-3">
         <div class="text-500 font-medium mb-2">Bio</div>
         <div class="text-900 line-height-3">
-          Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt
-          vitae. Commodo odio aenean sed adipiscing diam donec adipiscing
-          tristique. Eget felis eget nunc lobortis mattis aliquam faucibus purus
-          in.
+          {{ main.Introduction }}
         </div>
       </div>
       <div class="col-12 p-3">
@@ -90,3 +85,12 @@
     </div>
   </div>
 </template>
+<script>
+import { mapState } from "vuex";
+import axios from "axios";
+export default {
+  computed: {
+    ...mapState(["main"]),
+  },
+};
+</script>
