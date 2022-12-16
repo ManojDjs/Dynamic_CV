@@ -1,6 +1,6 @@
 <template>
   <div class="bg-indigo-800 p-4 shadow-2 border-round">
-    <div class="font-medium text-3xl text-900 mb-3">My Formal Profile</div>
+    <div class="font-medium text-3xl text-900 mb-3">Want to Hire me?</div>
     <div class="text-500 mb-5">I am looking for new career</div>
     <div class="grid grid-nogutter border-top-1 surface-border pt-2">
       <div class="col-12 md:col-6 p-3">

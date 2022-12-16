@@ -12,19 +12,8 @@
       <Experience></Experience>
     </div>
     
-
-    <div class="pb-2 border-round">
-      <Projects></Projects>
-    </div>
-    <div class="pb-2 border-round">
-      <Aboutme></Aboutme>
-    </div>
     <div class="pb-2 border-round">
       <Resume></Resume>
-    </div>
-
-    <div class="pb-2 border-round">
-      <Services></Services>
     </div>
     <!-- <div class="pb-2 border-round"> -->
     <Footer></Footer>
@@ -32,25 +21,22 @@
   </div>
 </template>
 <script>
-import Projects from "@/components/Projects.vue";
+import Nav from "@/components/Nav.vue";
 import Skills from "@/components/Skills.vue";
 import Experience from "@/components/Experience.vue";
-import Footer from "@/components/Footer.vue";
-import Services from "@/components/Services.vue";
 import Resume from "@/components/Resume.vue";
-import Nav from "@/components/Nav.vue";
-import Profile from "@/components/Profile.vue";
+import Footer from "@/components/Footer.vue";
+
 export default {
   name: "HomeView",
   components: {
-    Projects,
+    Nav,
     Skills,
     Experience,
     Footer,
-    Services,
+   
     Resume,
-    Nav,
-    Profile
+   
   },
   methods: {
     scroll(id) {

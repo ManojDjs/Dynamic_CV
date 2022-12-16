@@ -1,7 +1,7 @@
 <template>
   <div class="Education surface-0 p-3 border-round">
     <div class="card">
-      <h1 class="text-center text-5xl font-bold text-indigo-200 font-bold">
+      <h1 class="text-center md:text-left md:text-5xl text-xl font-bold text-900 font-bold px-4  md:px-6 lg:px-8">
         My Professional Life
       </h1>
       <li v-bind:key="item" v-for="item in experience">
