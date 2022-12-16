@@ -1,14 +1,19 @@
 <template>
-  <div class="surface-card p-2 shadow-2 border-round bg-blue-600">
-    <div class="text-5xl font-bold text-indigo-200 mb-3">
-      My Leet Code Profile
+  <div class=" px-4 py-4 md:px-6 md:py-6 lg:px-8 border-round text-center
+        lg:text-left">
+    <div class="font-bold text-3xl  text-indigo-800 mb-3">
+      What i do when i am free?
     </div>
-    <div class="font-large text-lg uppercase mb-3 text-orange-500">
+    <div class="text-indigo-700 line-height-3 text-xl mb-6">
+          As a Python developer i always love writing algorithms and problem solving. I participate in hackathons, 
+          coding challenges. I have completed hacker rank complete profile. Recently i started taking coding challenges
+          in Leet code.
+        </div>
+    <div class="font-large font-bold text-lg text-left uppercase mb-3 text-orange-500">
       {{ username }}
     </div>
-    <div class="border-1 border surface-border"></div>
     <!-- <div class="surface-ground px-4 py-5 md:px-6 lg:px-8"> -->
-    <div class="grid surface-ground fadeinleft animation-duration-1000">
+    <div class="grid  fadeinleft animation-duration-1000">
       <div class="col-12 md:col-6 lg:col-3">
         <div class="surface-card shadow-2 p-3 border-round">
           <div class="flex justify-content-between mb-3">
@@ -28,7 +33,7 @@
               "
               style="width: 2.5rem; height: 2.5rem"
             >
-              <i class="pi pi-globe pi-spin text-blue-500 text-xl"></i>
+              <i class="pi pi-globe text-blue-500 text-xl"></i>
             </div>
           </div>
           <span class="text-green-500 font-medium">{{ totalQuestions }} </span>

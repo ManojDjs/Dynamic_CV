@@ -5,7 +5,7 @@
         grid
         p-2
         lg:p-2
-        bg-orange-50
+        bg-indigo-50
         border-round
         mb-2
         text-center
@@ -13,14 +13,14 @@
       "
     >
       <div class="px-4 py-4 md:px-6 lg:px-8">
-        <div class="font-bold text-5xl text-indigo-900 mb-3">SERVICES</div>
+        <div class="font-bold text-5xl text-indigo-800 mb-3">Areas of Intrest</div>
         <div class="text-indigo-700 line-height-3 text-xl mb-6">
-          As a freelance Data Engineer and Data Scientist, I translate data into
+          As a Data Engineer and Data Scientist, I translate data into
           valuable and comprehensible insights. My goal is to improve results,
           make the right decisions and save costs. I am experienced in machine
           learning, supervised and unsupervised algorithms and use data
-          visualization techniques to present the results. I use SQL, R, Python,
-          QlikView and Tableau for my data projects.
+          visualization techniques to present the results. I use Python,Pyspark,Pandas, SQL,
+          Plotly and Tableau for my Projects.
         </div>
       </div>
       <div
@@ -30,9 +30,9 @@
       >
         <div
           class="
-            shadow-4
+            shadow-6
             border-round-3xl
-            surface-card
+            bg-indigo-800
             mb-3
             h-full
             flex-column
@@ -59,19 +59,6 @@
               {{ item.Description }}
             </p>
           </div>
-          <!-- <div class="px-4 py-3 surface-100 text-right">
-            <button
-              class="p-button p-component p-button-rounded p-button-warning"
-              type="button"
-              aria-label="Load"
-            >
-              <span
-                class="pi pi-download p-button-icon p-button-icon-right"
-              ></span
-              ><span class="p-button-label">Load</span
-              ><span class="p-ink" role="presentation"></span>
-            </button>
-          </div> -->
         </div>
       </div>
     </div>

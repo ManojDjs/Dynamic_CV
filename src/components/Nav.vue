@@ -44,6 +44,7 @@ export default {
                 {
 					label:'Projects',
 					icon:'pi pi-fw pi-bolt',
+          to:'/projects'
 					
 				}
 			]

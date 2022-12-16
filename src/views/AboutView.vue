@@ -5,12 +5,13 @@
     >
       <Nav></Nav>
     </div>
-    <div class="pb-2 mt-7 lg:mt-7 border-round">
-      <Experience></Experience>
-    </div>
-    <div class="pb-2 border-round">
+    <div class="pb-2  mt-7 lg:mt-7 border-round">
       <Skills></Skills>
     </div>
+    <div class="pb-2 border-round">
+      <Experience></Experience>
+    </div>
+    
 
     <div class="pb-2 border-round">
       <Projects></Projects>

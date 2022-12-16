@@ -22,7 +22,7 @@
           "
         >
           <section>
-            <span class="block text-5xl font-bold mb-1 text-indigo-800">{{
+            <span class="block text-6xl font-bold mb-1 text-indigo-800">{{
               main["Name"]
             }}</span>
             <div class="text-3xl text-yellow-400 font-bold mb-3">

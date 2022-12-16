@@ -1,7 +1,7 @@
 <template>
-  <div class="card p-4 shadow-9 surface-0 border-round">
+  <div class="card p-4 shadow-9  border-round">
     <div
-      class="text-5xl font-bold text-indigo-200 text-200 text-center mb-5 mt-3"
+      class="text-5xl font-bold text-indigo-800 text-200 text-center mb-5 mt-3"
     >
       Languages,Frame Works and Tools, I Mostly Use
     </div>
@@ -12,7 +12,7 @@
       >
         <Card
           style="width: 8rem; height: 10rem; background-color: #fdfefe"
-          class="box shadow-5"
+          class="box shadow-5 scalein animation-duration-1000"
           
         >
           <template #title>
