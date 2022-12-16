@@ -258,6 +258,14 @@
                 "Source":"https://symbols.getvecta.com/stencil_27/36_data-factory.e36cbf28ed.svg"
             },
             {
+                "Name":"Data Lake",
+                "Source":"https://symbols.getvecta.com/stencil_27/37_data-lake-analytics.d3521d1b1a.svg"
+            },
+            {
+                "Name":"Azure Blob",
+                "Source":"https://symbols.getvecta.com/stencil_27/86_storage-blob.476c91d0b1.svg"
+            },
+            {
                 "Name":"ML Ops",
                 "Source":"https://symbols.getvecta.com/stencil_27/58_machine-learning.bda1a99567.svg"
             },

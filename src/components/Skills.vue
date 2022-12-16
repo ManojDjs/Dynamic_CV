@@ -16,10 +16,10 @@
           
         >
           <template #title>
-            <div class="text-indigo-900 text-xl">{{item.Name}}</div>
+            <div class="text-indigo-900 text-lg">{{item.Name}}</div>
           </template>
           <template #content>
-            <img :src="item.Source" style="height: 4rem;width: 4rem;" class="p-1" />
+            <img :src="item.Source" style="height: 4rem;width: 4rem;" class="pb-1" />
           </template>
         </Card>
       </div>
